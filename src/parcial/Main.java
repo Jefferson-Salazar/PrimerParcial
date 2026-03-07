@@ -107,7 +107,24 @@ public class Main {
 
 	     // EJERCICIO 3
 	     static void ejercicio3() {
+	    	 
+	    	 
+	    	 
+	    	 System.out.print("Ingrese su nombre: ");
+	     String nombre = sc.next();
+	     nombre.toLowerCase();
+	     
+	    
+	     System.out.print("Ingrese su apellido: ");
+	     String apellido = sc.next();
+	     apellido.toLowerCase();
+	     
+	     String nombreApellido = nombre + apellido;
+	     nombreApellido.toLowerCase();
+	     
 
+	     System.out.println("Su correo electronico es: " + nombreApellido + "@umg.edu.gt");
+	    	
 	     }
 
 	  // EJERCICIO 4
