@@ -7,11 +7,13 @@ public class Main {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		int opcion; // variable que guardará la opción que el usuario elija del menú
+		
+		int opcion = 0; // variable que guardará la opción que el usuario elija del menú
 
 	     // Este ciclo permite que el menú se repita hasta que el usuario decida salir
 	     do {
-
+	    	 try {
+	
 	         // MENÚ PRINCIPAL
 	         System.out.println("\n=============== MENU ===============");
 	         System.out.println("1. Tabla de multiplicar de n del 1 al 12");
@@ -47,15 +49,26 @@ public class Main {
 	             default:
 	                 // Si escribe una opción incorrecta
 	                 System.out.println("Opcion invalida");
-	         }
+             }
 
-	     } while (opcion != 0); 
+         } catch (Exception e) {
+             // Mensaje si el usuario ingresa algo que no sea número
+             System.out.println("Error: Debe ingresar un número.");
+             sc.nextLine(); 
+         }
+
+     } while (opcion != 0); 
 	     // El menú seguirá apareciendo hasta que el usuario escriba 0
 	 }
 	
 	
 	     // EJERCICIO 1
 	     static void ejercicio1() {
+	    	 System.out.println("Escriba un número entre 1 y 12: ");
+	    	 int numero = sc.nextInt();
+	    	 
+	    	 
+	    	 
 	     }
 
 	     // EJERCICIO 2
