@@ -65,11 +65,20 @@ public class Main {
 	     // EJERCICIO 1
 	     static void ejercicio1() {
 	    	 System.out.println("Escriba un número entre 1 y 12: ");
+	    	 
 	    	 int numero = sc.nextInt();
 	    	 
-	    	 
+	    	 if (numero >= 1 && numero <= 12)
+	    		 
+	    		 for (int i = 1; i <= 12; i++) {
+	    	           System.out.println(numero + " x " + i + " = " + (numero * i));
+	    	       }
+
+	         else
+	     System.out.println("Numero fuera del rango");
 	    	 
 	     }
+	     
 
 	     // EJERCICIO 2
 	     static void ejercicio2() {
