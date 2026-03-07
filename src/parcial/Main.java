@@ -129,7 +129,19 @@ public class Main {
 
 	  // EJERCICIO 4
 	     static void ejercicio4() {
-
+	    	 System.out.print("Ingrese su nombre: ");
+		     String nombre = sc.next();
+		     nombre.toLowerCase();
+		     nombre.charAt(0);
+		    
+		     System.out.print("Ingrese su apellido: ");
+		     String apellido = sc.next();
+		     apellido.toLowerCase();
+		     
+		     String usuario = nombre + apellido;
+		     usuario.toLowerCase();
+		     
+		     System.out.println("Su usuario es : " + usuario);
 	         
 	     }
 	     
