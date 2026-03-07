@@ -73,6 +73,26 @@ public class Main {
 
 	     // EJERCICIO 2
 	     static void ejercicio2() {
+	    	 System.out.print("Escriba la primera calificacion: ");
+	    	 int num1 = sc.nextInt();
+	    	 
+	    	 System.out.print("Escriba la segunda calificacion: ");
+	    	 int num2 = sc.nextInt();
+	    	 
+	    	 System.out.print("Escriba la tercera calificacion: ");
+	    	 int num3 = sc.nextInt();
+	    	 
+	    	 System.out.print("Escriba la cuarta calificacion: ");
+	    	 int num4 = sc.nextInt();
+	    	 
+	    	 System.out.print("Escriba la quinta calificacion: ");
+	    	 int num5 = sc.nextInt();
+	    	 
+	    	 double suma = num1 + num2 + num3 + num4 + num5;
+	    	 
+	    	 double promedio = suma / 5;
+	    	 
+	    	 System.out.println("El promedio es: " + promedio);
 
 	     }
 
